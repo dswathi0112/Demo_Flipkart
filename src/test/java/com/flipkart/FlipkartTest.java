@@ -27,6 +27,7 @@ public class FlipkartTest {
 	static String days2;
 	@BeforeClass
 	public static void Application_Launch() {
+		System.out.println("updated code");
 		//Application Launch
 		WebDriverManager.edgedriver().setup();
 		EdgeOptions options = new EdgeOptions();
